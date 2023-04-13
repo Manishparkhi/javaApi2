@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        String url = "https://api.zippopotam.us/us/33162";
+        String url = "https://api.nationalize.io/?name=nathaniel";
 
         HttpRequest request = HttpRequest.newBuilder().GET().uri(URI.create(url)).build();
 
